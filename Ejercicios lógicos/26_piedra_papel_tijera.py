@@ -78,6 +78,6 @@ def calcular_ganador(jugadas):
     else:
         return "Tie"
 
-# Ejemplo de uso
+# Ejemplo de prueba
 resultado = calcular_ganador([("R", "P"), ("R", "S"), ("P", "P")])
 print(f"Resultado: {resultado}")
